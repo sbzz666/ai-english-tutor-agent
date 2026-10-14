@@ -17,3 +17,9 @@
 3. 运行 `npm install`和 `npm run dev`。
 
 没有 API Key 时仍可使用内置回复演示。语音识别建议使用 Chrome 或 Edge，并允许麦克风权限。
+
+## Windows 桌面版
+
+GitHub Releases 提供可选安装目录的 `Setup.exe` 和解压即用的 `Portable.zip`。桌面版内置运行环境，用户无需安装 Node.js；学习进度保存在软件自己的本地数据目录中。
+
+发布包不包含 DeepSeek API Key，未配置密钥时自动使用内置教学回复。推送 `v*` 标签会触发 GitHub Actions 自动构建发布。
